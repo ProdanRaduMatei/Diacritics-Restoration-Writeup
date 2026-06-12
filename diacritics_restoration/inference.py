@@ -24,6 +24,8 @@ class RestorationResult:
 
 
 class TransformerRestorer:
+    """Thin wrapper around the trained checkpoint and tokenizer."""
+
     def __init__(self, checkpoint_path: str | Path, device: str = "cpu") -> None:
         checkpoint = torch.load(checkpoint_path, map_location=device)
         self.device = torch.device(device)
@@ -44,6 +46,8 @@ class TransformerRestorer:
 
 
 class RestorationPipeline:
+    """Production path: try the model, then fall back to safer local baselines."""
+
     def __init__(
         self,
         *,
@@ -75,6 +79,7 @@ class RestorationPipeline:
         restored_chunks: list[str] = []
         used_sources: list[SourceName] = []
         for chunk in chunk_text(normalized):
+            # Each chunk is validated independently so long texts cannot drift.
             result = self._restore_chunk(chunk)
             restored_chunks.append(result.text)
             used_sources.append(result.source)
@@ -94,6 +99,7 @@ class RestorationPipeline:
         return fallback
 
     def _model_output_ok(self, text: str, generated: str) -> bool:
+        # First reject rewrites, then reject unseen diacritized forms for known bases.
         if not safety_constraint_ok(text, generated):
             return False
         if self.dictionary is None:
@@ -101,6 +107,7 @@ class RestorationPipeline:
         return self.dictionary.lexicon_constraint_ok(text, generated)
 
     def fallback(self, text: str) -> RestorationResult:
+        # Dictionary-first is the default because it beat the n-gram reranker on test.
         if self.fallback_strategy == "dictionary":
             dictionary_result = self._dictionary_fallback(text)
             if dictionary_result.constraint_ok and dictionary_result.source != "identity":

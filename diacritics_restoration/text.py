@@ -14,6 +14,7 @@ CEDILLA_TO_COMMA = str.maketrans(
     }
 )
 
+# Romanian corpora often mix old cedilla glyphs with modern comma-below glyphs.
 DIACRITIC_TO_BASE = str.maketrans(
     {
         "ă": "a",
@@ -63,6 +64,8 @@ def normalize_for_constraint(text: str) -> str:
 
 
 def safety_constraint_ok(source_without_diacritics: str, restored: str) -> bool:
+    """Guardrail: adding diacritics must not otherwise rewrite the input text."""
+
     return normalize_for_constraint(source_without_diacritics) == normalize_for_constraint(restored)
 
 
@@ -101,6 +104,7 @@ def chunk_text(text: str, max_chars: int = 220) -> list[str]:
     if len(text) <= max_chars:
         return [text] if text else []
 
+    # Prefer sentence/newline boundaries; fall back to whitespace only for long pieces.
     pieces = re.split(r"(\n+|(?<=[.!?])\s+)", text)
     chunks: list[str] = []
     current = ""
@@ -133,4 +137,3 @@ def has_diacritic(text: str) -> bool:
 
 def pairwise_equal_base(source_tokens: Iterable[str], target_tokens: Iterable[str]) -> bool:
     return [base_form(tok) for tok in source_tokens] == [base_form(tok) for tok in target_tokens]
-

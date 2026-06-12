@@ -19,6 +19,7 @@ from diacritics_restoration.tokenization import SentencePieceTokenizer, train_se
 
 
 PRESETS = {
+    # Presets trade quality for CPU cost; "small" is the checked-in trained model.
     "tiny": {
         "vocab_size": 2000,
         "d_model": 96,
@@ -142,6 +143,7 @@ def main() -> None:
         valid_pairs = valid_pairs[: args.max_valid_docs]
 
     tokenizer_model = train_sentencepiece(
+        # Train subwords on both sides so source and target share one compact vocab.
         [pair.source for pair in train_pairs] + [pair.target for pair in train_pairs],
         output_dir=args.tokenizer_dir,
         vocab_size=preset["vocab_size"],
@@ -224,6 +226,7 @@ def main() -> None:
 
         if valid_loss < best_valid:
             best_valid = valid_loss
+            # Save only the best validation checkpoint to keep the artifact small.
             torch.save(
                 {
                     "model_state": model.state_dict(),

@@ -15,6 +15,7 @@ from diacritics_restoration.linguistic import write_linguistic_report
 
 
 HARD_CASES = [
+    # These are designed to expose ambiguity, not to flatter the model.
     (
         "Am pus peste peste legume.",
         "Am pus pește peste legume.",
@@ -96,6 +97,7 @@ def main() -> None:
     lm = NGramLanguageModel.load(args.ngram)
 
     results = {
+        # Evaluate baselines separately so the hybrid gain is visible.
         "frequency_dictionary": evaluate_pairs(
             pairs,
             lambda source: (dictionary.restore(source), "frequency_dictionary"),
@@ -123,6 +125,7 @@ def main() -> None:
 
     hard_rows = []
     for source, expected, why in HARD_CASES:
+        # Manual cases keep the constraint flag next to the human-readable error.
         result = pipeline.restore(source)
         hard_rows.append(
             {

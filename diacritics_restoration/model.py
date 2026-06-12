@@ -15,6 +15,8 @@ warnings.filterwarnings(
 
 @dataclass
 class TransformerConfig:
+    """Small seq2seq config kept explicit for checkpoint portability."""
+
     vocab_size: int
     pad_id: int = 0
     bos_id: int = 2
@@ -36,6 +38,8 @@ class TransformerConfig:
 
 
 class Seq2SeqTransformer(nn.Module):
+    """Encoder-decoder Transformer used as a local MT-style diacritics model."""
+
     def __init__(self, config: TransformerConfig) -> None:
         super().__init__()
         self.config = config
@@ -52,6 +56,7 @@ class Seq2SeqTransformer(nn.Module):
             norm_first=True,
         )
         self.generator = nn.Linear(config.d_model, config.vocab_size)
+        # Tie output projection to token embeddings to reduce parameters.
         self.generator.weight = self.embedding.weight
 
     def _embed(self, tokens: torch.Tensor) -> torch.Tensor:
@@ -88,6 +93,7 @@ class Seq2SeqTransformer(nn.Module):
         temperature: float = 0.0,
     ) -> torch.Tensor:
         self.eval()
+        # Greedy decoding is deterministic and fast enough for CPU inference.
         generated = torch.full(
             (source.size(0), 1),
             fill_value=self.config.bos_id,

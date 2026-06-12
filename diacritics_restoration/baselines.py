@@ -24,6 +24,8 @@ def _json_counter(counter: Counter[str]) -> dict[str, int]:
 
 @dataclass
 class FrequencyDictionary:
+    """Most-common-form baseline plus candidate inventory for reranking/safety."""
+
     variants: dict[str, Counter[str]]
 
     @classmethod
@@ -33,6 +35,7 @@ class FrequencyDictionary:
         for pair in pairs:
             source_tokens = tokenize_preserving_space(pair.source)
             target_tokens = tokenize_preserving_space(pair.target)
+            # Only aligned pairs can teach token-level variants safely.
             if len(source_tokens) != len(target_tokens) or not pairwise_equal_base(source_tokens, target_tokens):
                 skipped_alignment += 1
                 continue
@@ -71,6 +74,7 @@ class FrequencyDictionary:
         return "".join(restored)
 
     def lexicon_constraint_ok(self, source_text: str, restored_text: str) -> bool:
+        # Reject model forms that preserve the base text but were never observed.
         source_tokens = tokenize_preserving_space(source_text)
         restored_tokens = tokenize_preserving_space(restored_text)
         if len(source_tokens) != len(restored_tokens):
@@ -141,6 +145,7 @@ class NGramLanguageModel:
 
     def fit(self, sentences: list[str]) -> "NGramLanguageModel":
         for sentence in sentences:
+            # Simple add-alpha word/punctuation LM; enough for a lightweight reranker.
             tokens = ["<s>"] * (self.order - 1) + [tok.lower() for tok in tokenize_lm(sentence)] + ["</s>"]
             self.vocab.update(tok for tok in tokens if tok not in {"<s>", "</s>"})
             for n in range(1, self.order + 1):
@@ -217,6 +222,7 @@ def rerank_with_ngram(
     candidate_top_k: int = 4,
     dictionary_weight: float = 1.5,
 ) -> str:
+    # Beam search over dictionary candidates, scored by LM likelihood plus token prior.
     tokens = tokenize_preserving_space(text)
     start_context = ("<s>",) * (lm.order - 1)
     beams: list[tuple[float, tuple[str, ...], list[str]]] = [(0.0, start_context, [])]

@@ -31,6 +31,7 @@ def read_raw_pairs(raw_dir: str | Path) -> list[TextPair]:
 
 
 def _similarity(source: str, target: str) -> float:
+    # Compare source with target stripped of diacritics; large gaps mean bad pairs.
     return difflib.SequenceMatcher(None, source, remove_diacritics(target)).ratio()
 
 
@@ -41,6 +42,7 @@ def clean_pairs(
     max_length_ratio: float = 1.15,
     max_chars: int = 512,
 ) -> tuple[list[TextPair], dict]:
+    # Keep cleaning conservative: remove corruption, but do not try OCR correction here.
     kept: list[TextPair] = []
     seen: set[tuple[str, str]] = set()
     report = {
@@ -122,6 +124,7 @@ def split_by_document(
     train_ratio: float = 0.8,
     valid_ratio: float = 0.1,
 ) -> dict[str, list[TextPair]]:
+    # Split whole documents, not random lines, to avoid near-duplicate leakage.
     shuffled = pairs[:]
     random.Random(seed).shuffle(shuffled)
     n = len(shuffled)
@@ -175,4 +178,3 @@ def write_cleaning_report(path: str | Path, report: dict, splits: dict[str, list
         lines.append(f"{name}: {len(split_pairs)}")
     lines.extend(["", "Examples", "--------", json.dumps(report["examples"], ensure_ascii=False, indent=2)])
     output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
-

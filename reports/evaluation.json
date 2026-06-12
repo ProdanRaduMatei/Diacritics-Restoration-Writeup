@@ -1,0 +1,513 @@
+{
+  "frequency_dictionary": {
+    "items": 664,
+    "char_accuracy": 0.9855975334132968,
+    "word_accuracy": 0.942259551134197,
+    "diacritic_position_accuracy": 0.9547158834818794,
+    "sentence_exact_match": 0.46686746987951805,
+    "constraint_violation_rate": 0.0030120481927710845,
+    "layer_counts": {
+      "frequency_dictionary": 664
+    },
+    "examples": [
+      {
+        "doc_id": "005706",
+        "source": "nou zdranganeala lor, uitata de luni intregi. Rieux astepta publicarea statisticilor",
+        "target": "nou zdrangăneala lor, uitată de luni întregi. Rieux aștepta publicarea statisticilor",
+        "prediction": "nou zdranganeala lor, uitată de luni întregi. Rieux aștepta publicarea statisticilor",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "001441",
+        "source": "era nici macar una din acele casatorii care ofera lumii imaginea unei fericiri",
+        "target": "era nici măcar una din acele căsătorii care oferă lumii imaginea unei fericiri",
+        "prediction": "era nici măcar una din acele casatorii care oferă lumii imaginea unei fericiri",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "000045",
+        "source": "iubeste la noi. Barbatii si femeile fie ca se devora rapid fn ceea ce se cheama",
+        "target": "iubește la noi. Bărbații și femeile fie că se devoră rapid fn ceea ce se cheamă",
+        "prediction": "iubește la noi. Bărbații și femeile fie că se devora rapid fn ceea ce se cheamă",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "005379",
+        "source": "Gustul amar mi-a ramas in gura si n-am incetat sa insist, adica sa gandesc asupra",
+        "target": "Gustul amar mi-a rămas în gură și n-am încetat să insist, adică să gândesc asupra",
+        "prediction": "Gustul amar mi-a rămas în gura și n-am încetat să insist, adică să gândesc asupra",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "001208",
+        "source": "In tot timpul zilei doctorul simti cum ise fnteteste mica ameteala care il apuca",
+        "target": "În tot timpul zilei doctorul simți cum ise fntețește mica amețeală care îl apucă",
+        "prediction": "În tot timpul zilei doctorul simți cum ise fnteteste mică amețeală care îl apucă",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "001999",
+        "source": "Afara ploaia se intetea si aceasta ultima fraza rostita in mijlocul unei linisti",
+        "target": "Afară ploaia se întețea și această ultimă frază rostită în mijlocul unei liniști",
+        "prediction": "Afară ploaia se intetea și această ultima frază rostita în mijlocul unei linisti",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "003275",
+        "source": "scuzandu-se.",
+        "target": "scuzându-se.",
+        "prediction": "scuzandu-se.",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "005710",
+        "source": "s-au grabit sa se bucure. Lunile care abia trecusera, desi sporisera dorinta lor de",
+        "target": "s-au grăbit să se bucure. Lunile care abia trecuseră, deși sporiseră dorința lor de",
+        "prediction": "s-au grăbit să se bucure. Lunile care abia trecuseră, deși sporisera dorința lor de",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "001593",
+        "source": "niciodata decat fn masura in care ea oferea despartirii lor riscul de a fi vesnica.",
+        "target": "niciodată decât fn măsura în care ea oferea despărțirii lor riscul de a fi veșnică.",
+        "prediction": "niciodată decât fn măsură în care ea oferea despărțirii lor riscul de a fi veșnica.",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "005164",
+        "source": "nici o singura data el nu si-a privit interlocutorii in fata. A spus ca era bucuros",
+        "target": "nici o singură dată el nu și-a privit interlocutorii în față. A spus că era bucuros",
+        "prediction": "nici o singura dată el nu și-a privit interlocutorii în fața. A spus că era bucuros",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "003735",
+        "source": "inmormantat in mod decent este mai raspandita decat se crede, ceva mai tarziu,",
+        "target": "înmormântat in mod decent este mai răspândită decât se crede, ceva mai târziu,",
+        "prediction": "înmormântat în mod decent este mai raspandita decât se crede, ceva mai târziu,",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "006547",
+        "source": "Deodata, de la ferestrele caselor ocupate de agenti, s-a dezlantuit un tir de",
+        "target": "Deodată, de la ferestrele caselor ocupate de agenți, s-a dezlănțuit un tir de",
+        "prediction": "Deodată, de la ferestrele caselor ocupate de agenți, s-a dezlantuit un tir de",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "000378",
+        "source": "pat protestand ca se simtea bine si canu facea sa se osteneasca.",
+        "target": "pat protestând că se simțea bine și canu făcea să se ostenească.",
+        "prediction": "pat protestand că se simțea bine și canu făcea să se osteneasca.",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "000200",
+        "source": "chema Raymond Rambert. Mic de statura, cu umeri lati, cu chip hotarat, cu ochi",
+        "target": "chema Raymond Rambert. Mic de statură, cu umeri lați, cu chip hotărât, cu ochi",
+        "prediction": "chema Raymond Rambert. Mic de statură, cu umeri lati, cu chip hotărât, cu ochi",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "002543",
+        "source": "foarte repede mici grupuri care n-au gasit loc. Cerul incepe sa-si piarda lumina",
+        "target": "foarte repede mici grupuri care n-au găsit loc. Cerul începe să-și piardă lumina",
+        "prediction": "foarte repede mici grupuri care n-au găsit loc. Cerul începe să-și piardă lumină",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "001925",
+        "source": "ciumei, lupta care constituia intreaga viata a orasului nostru in timpul acestei",
+        "target": "ciumei, lupta care constituia întreaga viață a orașului nostru în timpul acestei",
+        "prediction": "ciumei, lupta care constituia întreaga viața a orașului nostru în timpul acestei",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "000765",
+        "source": "-- Da. Si nu uita: chiar la Paris, in urma cu aproape douazeci de ani.",
+        "target": "-- Da. Și nu uita: chiar la Paris, în urmă cu aproape douăzeci de ani.",
+        "prediction": "-- Da. Și nu uită: chiar la Paris, în urmă cu aproape douăzeci de ani.",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "002746",
+        "source": "- Inca un cuvant, doctore, chiar daca ti se pare ridicol: ai intru totul dreptate.",
+        "target": "- Încă un cuvânt, doctore, chiar dacă ți se pare ridicol: ai întru totul dreptate.",
+        "prediction": "- Încă un cuvânt, doctore, chiar dacă ți se pare ridicol: ai intru totul dreptate.",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "002325",
+        "source": "ceva precis. Rieux isi spunea doar ca Rambert identifica aceste imagini cu cele",
+        "target": "ceva precis. Rieux își spunea doar că Rambert identifică aceste imagini cu cele",
+        "prediction": "ceva precis. Rieux își spunea doar că Rambert identifica aceste imagini cu cele",
+        "layer": "frequency_dictionary"
+      },
+      {
+        "doc_id": "005402",
+        "source": "ma interesa era gaura din piept. Sifmi spuneam ca pana una-alta si cel putin in",
+        "target": "mă interesa era gaura din piept. Sifmi spuneam că până una-alta și cel puțin în",
+        "prediction": "mă interesa era gaura din piept. Sifmi spuneam că până una-altă și cel puțin în",
+        "layer": "frequency_dictionary"
+      }
+    ]
+  },
+  "ngram_reranker": {
+    "items": 664,
+    "char_accuracy": 0.9716448190277788,
+    "word_accuracy": 0.890820454261362,
+    "diacritic_position_accuracy": 0.9111281554363191,
+    "sentence_exact_match": 0.19578313253012047,
+    "constraint_violation_rate": 0.0030120481927710845,
+    "layer_counts": {
+      "ngram_reranker": 664
+    },
+    "examples": [
+      {
+        "doc_id": "005706",
+        "source": "nou zdranganeala lor, uitata de luni intregi. Rieux astepta publicarea statisticilor",
+        "target": "nou zdrangăneala lor, uitată de luni întregi. Rieux aștepta publicarea statisticilor",
+        "prediction": "nou zdranganeala lor, uitata de luni intregi. Rieux aștepta publicarea statisticilor",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "001441",
+        "source": "era nici macar una din acele casatorii care ofera lumii imaginea unei fericiri",
+        "target": "era nici măcar una din acele căsătorii care oferă lumii imaginea unei fericiri",
+        "prediction": "era nici măcar una din acele casatorii care oferă lumii imaginea unei fericiri",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "000873",
+        "source": "- Cifrele urca, doctore, a anuntat el: unsprezece morti in patruzeci si opt de",
+        "target": "- Cifrele urcă, doctore, a anunțat el: unsprezece morți în patruzeci și opt de",
+        "prediction": "- Cifrele urcă, doctore, a anuntat el: unsprezece morți în patruzeci și opt de",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "000045",
+        "source": "iubeste la noi. Barbatii si femeile fie ca se devora rapid fn ceea ce se cheama",
+        "target": "iubește la noi. Bărbații și femeile fie că se devoră rapid fn ceea ce se cheamă",
+        "prediction": "iubeste la noi. Barbatii și femeile fie că se devora rapid fn ceea ce se cheama",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "005638",
+        "source": "Tarrou, sa-l ingrijeasca...",
+        "target": "Tarrou, să-l îngrijească...",
+        "prediction": "Tarrou, să-l ingrijeasca...",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "005379",
+        "source": "Gustul amar mi-a ramas in gura si n-am incetat sa insist, adica sa gandesc asupra",
+        "target": "Gustul amar mi-a rămas în gură și n-am încetat să insist, adică să gândesc asupra",
+        "prediction": "Gustul amar mi-a ramas în gura și n-am încetat să insist, adica să gândesc asupra",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "001208",
+        "source": "In tot timpul zilei doctorul simti cum ise fnteteste mica ameteala care il apuca",
+        "target": "În tot timpul zilei doctorul simți cum ise fntețește mica amețeală care îl apucă",
+        "prediction": "În tot timpul zilei doctorul simți cum ise fnteteste mică ameteala care îl apuca",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "001999",
+        "source": "Afara ploaia se intetea si aceasta ultima fraza rostita in mijlocul unei linisti",
+        "target": "Afară ploaia se întețea și această ultimă frază rostită în mijlocul unei liniști",
+        "prediction": "Afară ploaia se intetea și această ultimă frază rostita în mijlocul unei linisti",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "003275",
+        "source": "scuzandu-se.",
+        "target": "scuzându-se.",
+        "prediction": "scuzandu-se.",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "004054",
+        "source": "acestui chip pe care de obicei un aer de blandete si ironie asternea o expresie de",
+        "target": "acestui chip pe care de obicei un aer de blândețe și ironie așternea o expresie de",
+        "prediction": "acestui chip pe care de obicei un aer de blandete și ironie asternea o expresie de",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "005710",
+        "source": "s-au grabit sa se bucure. Lunile care abia trecusera, desi sporisera dorinta lor de",
+        "target": "s-au grăbit să se bucure. Lunile care abia trecuseră, deși sporiseră dorința lor de",
+        "prediction": "s-au grabit să se bucure. Lunile care abia trecusera, deși sporisera dorința lor de",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "005890",
+        "source": "silueta ei nemiscata; asupra sprintenelii cu care ea se deplasa dintr-o odaie in",
+        "target": "silueta ei nemișcată; asupra sprintenelii cu care ea se deplasa dintr-o odaie în",
+        "prediction": "silueta ei nemiscata; asupra sprintenelii cu care ea se deplasa dintr-o odaie în",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "001593",
+        "source": "niciodata decat fn masura in care ea oferea despartirii lor riscul de a fi vesnica.",
+        "target": "niciodată decât fn măsura în care ea oferea despărțirii lor riscul de a fi veșnică.",
+        "prediction": "niciodată decât fn masura în care ea oferea despărțirii lor riscul de a fi vesnica.",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "003735",
+        "source": "inmormantat in mod decent este mai raspandita decat se crede, ceva mai tarziu,",
+        "target": "înmormântat in mod decent este mai răspândită decât se crede, ceva mai târziu,",
+        "prediction": "inmormantat în mod decent este mai raspandita decât se crede, ceva mai târziu,",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "005012",
+        "source": "Dar toate aceste semne ale anotimpului nu te puteau face sa uiti ca cimitirele",
+        "target": "Dar toate aceste semne ale anotimpului nu te puteau face să uiți că cimitirele",
+        "prediction": "Dar toate aceste semne ale anotimpului nu te puteau face să uiti că cimitirele",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "003897",
+        "source": "acru de la inceput, ci numai cu cele cateva argumente care ne ramaneau clare in",
+        "target": "acru de la început, ci numai cu cele câteva argumente care ne rămâneau clare în",
+        "prediction": "acru de la inceput, ci numai cu cele câteva argumente care ne rămâneau clare în",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "006547",
+        "source": "Deodata, de la ferestrele caselor ocupate de agenti, s-a dezlantuit un tir de",
+        "target": "Deodată, de la ferestrele caselor ocupate de agenți, s-a dezlănțuit un tir de",
+        "prediction": "Deodata, de la ferestrele caselor ocupate de agenti, s-a dezlantuit un tir de",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "000378",
+        "source": "pat protestand ca se simtea bine si canu facea sa se osteneasca.",
+        "target": "pat protestând că se simțea bine și canu făcea să se ostenească.",
+        "prediction": "pat protestand că se simțea bine și canu facea să se osteneasca.",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "000200",
+        "source": "chema Raymond Rambert. Mic de statura, cu umeri lati, cu chip hotarat, cu ochi",
+        "target": "chema Raymond Rambert. Mic de statură, cu umeri lați, cu chip hotărât, cu ochi",
+        "prediction": "chema Raymond Rambert. Mic de statura, cu umeri lati, cu chip hotarat, cu ochi",
+        "layer": "ngram_reranker"
+      },
+      {
+        "doc_id": "001632",
+        "source": "adevarului. A cincea saptamana daduse intr-adevar trei sute douazeci si unu de",
+        "target": "adevărului. A cincea săptămână dăduse într-adevăr trei sute douăzeci și unu de",
+        "prediction": "adevarului. A cincea săptămână dăduse într-adevăr trei sute douăzeci și unu de",
+        "layer": "ngram_reranker"
+      }
+    ]
+  },
+  "pipeline": {
+    "items": 664,
+    "char_accuracy": 0.9856145555979702,
+    "word_accuracy": 0.9420858822191539,
+    "diacritic_position_accuracy": 0.9547541561576329,
+    "sentence_exact_match": 0.4713855421686747,
+    "constraint_violation_rate": 0.0,
+    "layer_counts": {
+      "dictionary_fallback": 480,
+      "transformer": 182,
+      "identity": 2
+    },
+    "examples": [
+      {
+        "doc_id": "005706",
+        "source": "nou zdranganeala lor, uitata de luni intregi. Rieux astepta publicarea statisticilor",
+        "target": "nou zdrangăneala lor, uitată de luni întregi. Rieux aștepta publicarea statisticilor",
+        "prediction": "nou zdranganeala lor, uitată de luni întregi. Rieux aștepta publicarea statisticilor",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "001441",
+        "source": "era nici macar una din acele casatorii care ofera lumii imaginea unei fericiri",
+        "target": "era nici măcar una din acele căsătorii care oferă lumii imaginea unei fericiri",
+        "prediction": "era nici măcar una din acele casatorii care oferă lumii imaginea unei fericiri",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "000045",
+        "source": "iubeste la noi. Barbatii si femeile fie ca se devora rapid fn ceea ce se cheama",
+        "target": "iubește la noi. Bărbații și femeile fie că se devoră rapid fn ceea ce se cheamă",
+        "prediction": "iubește la noi. Bărbații și femeile fie că se devora rapid fn ceea ce se cheamă",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "005379",
+        "source": "Gustul amar mi-a ramas in gura si n-am incetat sa insist, adica sa gandesc asupra",
+        "target": "Gustul amar mi-a rămas în gură și n-am încetat să insist, adică să gândesc asupra",
+        "prediction": "Gustul amar mi-a rămas în gura și n-am încetat să insist, adică să gândesc asupra",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "001208",
+        "source": "In tot timpul zilei doctorul simti cum ise fnteteste mica ameteala care il apuca",
+        "target": "În tot timpul zilei doctorul simți cum ise fntețește mica amețeală care îl apucă",
+        "prediction": "În tot timpul zilei doctorul simți cum ise fnteteste mică amețeală care îl apucă",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "001999",
+        "source": "Afara ploaia se intetea si aceasta ultima fraza rostita in mijlocul unei linisti",
+        "target": "Afară ploaia se întețea și această ultimă frază rostită în mijlocul unei liniști",
+        "prediction": "Afară ploaia se intetea și această ultima frază rostita în mijlocul unei linisti",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "003275",
+        "source": "scuzandu-se.",
+        "target": "scuzându-se.",
+        "prediction": "scuzandu-se.",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "005710",
+        "source": "s-au grabit sa se bucure. Lunile care abia trecusera, desi sporisera dorinta lor de",
+        "target": "s-au grăbit să se bucure. Lunile care abia trecuseră, deși sporiseră dorința lor de",
+        "prediction": "s-au grăbit să se bucure. Lunile care abia trecuseră, deși sporisera dorința lor de",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "001593",
+        "source": "niciodata decat fn masura in care ea oferea despartirii lor riscul de a fi vesnica.",
+        "target": "niciodată decât fn măsura în care ea oferea despărțirii lor riscul de a fi veșnică.",
+        "prediction": "niciodată decât fn măsură în care ea oferea despărțirii lor riscul de a fi veșnica.",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "005164",
+        "source": "nici o singura data el nu si-a privit interlocutorii in fata. A spus ca era bucuros",
+        "target": "nici o singură dată el nu și-a privit interlocutorii în față. A spus că era bucuros",
+        "prediction": "nici o singură dată el nu și-a privit interlocutorii în fața. A spus că era bucuros",
+        "layer": "transformer"
+      },
+      {
+        "doc_id": "003735",
+        "source": "inmormantat in mod decent este mai raspandita decat se crede, ceva mai tarziu,",
+        "target": "înmormântat in mod decent este mai răspândită decât se crede, ceva mai târziu,",
+        "prediction": "înmormântat în mod decent este mai raspandita decât se crede, ceva mai târziu,",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "006547",
+        "source": "Deodata, de la ferestrele caselor ocupate de agenti, s-a dezlantuit un tir de",
+        "target": "Deodată, de la ferestrele caselor ocupate de agenți, s-a dezlănțuit un tir de",
+        "prediction": "Deodată, de la ferestrele caselor ocupate de agenți, s-a dezlantuit un tir de",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "000378",
+        "source": "pat protestand ca se simtea bine si canu facea sa se osteneasca.",
+        "target": "pat protestând că se simțea bine și canu făcea să se ostenească.",
+        "prediction": "pat protestand că se simțea bine și canu făcea să se osteneasca.",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "000200",
+        "source": "chema Raymond Rambert. Mic de statura, cu umeri lati, cu chip hotarat, cu ochi",
+        "target": "chema Raymond Rambert. Mic de statură, cu umeri lați, cu chip hotărât, cu ochi",
+        "prediction": "chema Raymond Rambert. Mic de statură, cu umeri lati, cu chip hotărât, cu ochi",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "002543",
+        "source": "foarte repede mici grupuri care n-au gasit loc. Cerul incepe sa-si piarda lumina",
+        "target": "foarte repede mici grupuri care n-au găsit loc. Cerul începe să-și piardă lumina",
+        "prediction": "foarte repede mici grupuri care n-au găsit loc. Cerul începe să-și piardă lumină",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "001925",
+        "source": "ciumei, lupta care constituia intreaga viata a orasului nostru in timpul acestei",
+        "target": "ciumei, lupta care constituia întreaga viață a orașului nostru în timpul acestei",
+        "prediction": "ciumei, lupta care constituia întreaga viața a orașului nostru în timpul acestei",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "002746",
+        "source": "- Inca un cuvant, doctore, chiar daca ti se pare ridicol: ai intru totul dreptate.",
+        "target": "- Încă un cuvânt, doctore, chiar dacă ți se pare ridicol: ai întru totul dreptate.",
+        "prediction": "- Încă un cuvânt, doctore, chiar dacă ți se pare ridicol: ai intru totul dreptate.",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "002325",
+        "source": "ceva precis. Rieux isi spunea doar ca Rambert identifica aceste imagini cu cele",
+        "target": "ceva precis. Rieux își spunea doar că Rambert identifică aceste imagini cu cele",
+        "prediction": "ceva precis. Rieux își spunea doar că Rambert identifica aceste imagini cu cele",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "005402",
+        "source": "ma interesa era gaura din piept. Sifmi spuneam ca pana una-alta si cel putin in",
+        "target": "mă interesa era gaura din piept. Sifmi spuneam că până una-alta și cel puțin în",
+        "prediction": "mă interesa era gaura din piept. Sifmi spuneam că până una-altă și cel puțin în",
+        "layer": "dictionary_fallback"
+      },
+      {
+        "doc_id": "001391",
+        "source": "functionarilor, expuneau situatii la fel de justificate si, fn acelasi timp, la fel de",
+        "target": "funcționarilor, expuneau situații la fel de justificate și, fn același timp, la fel de",
+        "prediction": "funcționarilor, expuneau situatii la fel de justificate și, fn același timp, la fel de",
+        "layer": "dictionary_fallback"
+      }
+    ]
+  },
+  "hard_cases": [
+    {
+      "source": "Am pus peste peste legume.",
+      "expected": "Am pus pește peste legume.",
+      "prediction": "Am pus peste peste legume.",
+      "layer": "transformer",
+      "constraint_ok": true,
+      "why": "The first `peste` is a noun and the second is a preposition; corpus frequency alone prefers `peste`."
+    },
+    {
+      "source": "Fata sta in fata casei.",
+      "expected": "Fata stă în fața casei.",
+      "prediction": "Fața sta în fața casei.",
+      "layer": "dictionary_fallback",
+      "constraint_ok": true,
+      "why": "`fata` can be `fata`, `fată`, `fața`; the second position is forced by the prepositional phrase."
+    },
+    {
+      "source": "Mana dreapta era in mana medicului.",
+      "expected": "Mâna dreaptă era în mâna medicului.",
+      "prediction": "Mâna dreapta era în mâna medicului.",
+      "layer": "dictionary_fallback",
+      "constraint_ok": true,
+      "why": "`mana` differs between indefinite `mână` and definite `mâna`; local syntax matters."
+    },
+    {
+      "source": "Para dulce nu e acelasi lucru cu o para.",
+      "expected": "Para dulce nu e același lucru cu o pară.",
+      "prediction": "Pară dulce nu e același lucru cu o pară.",
+      "layer": "dictionary_fallback",
+      "constraint_ok": true,
+      "why": "`para` may stay plain in named/foreign contexts, but fruit needs `pară`."
+    },
+    {
+      "source": "Casa veche nu era acasa.",
+      "expected": "Casa veche nu era acasă.",
+      "prediction": "Casă veche nu era acasă.",
+      "layer": "dictionary_fallback",
+      "constraint_ok": true,
+      "why": "`casa/casă` and `acasă` show that token frequency is not enough; phrase role is important."
+    },
+    {
+      "source": "Sa-si ia cartea sau sa o lase?",
+      "expected": "Să-și ia cartea sau să o lase?",
+      "prediction": "Sa-și ia cartea sau să o lase?",
+      "layer": "transformer",
+      "constraint_ok": true,
+      "why": "Hyphenated clitics test whether the system handles punctuation-adjacent words."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+Cleaning report
+===============
+
+Input pairs: 6646
+Kept pairs: 6635
+Removed empty: 0
+Removed replacement char: 0
+Removed length: 0
+Removed similarity: 0
+Removed duplicate: 11
+
+Split sizes
+-----------
+train: 5308
+valid: 663
+test: 664
+
+Examples
+--------
+{
+  "length": [],
+  "similarity": [],
+  "duplicate": [
+    "001324",
+    "003208",
+    "003301",
+    "003330",
+    "003374"
+  ],
+  "replacement_char": []
+}

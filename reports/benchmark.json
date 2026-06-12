@@ -1,0 +1,14 @@
+{
+  "device": "cpu",
+  "runs": 200,
+  "latency_ms_mean": 20.299,
+  "latency_ms_p50": 21.3,
+  "latency_ms_p95": 23.388,
+  "model_size_mb": 15.054,
+  "dictionary_size_mb": 0.453,
+  "ngram_size_mb": 7.376,
+  "sources": {
+    "dictionary_fallback": 50,
+    "transformer": 150
+  }
+}

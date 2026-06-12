@@ -1,0 +1,1 @@
+-- Dacă un preot consulta un medic există o contradicție.

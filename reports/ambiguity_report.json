@@ -1,0 +1,3060 @@
+{
+  "ambiguous_forms": [
+    {
+      "base": "evidenta",
+      "total": 5,
+      "forms": [
+        [
+          "evidentă",
+          2
+        ],
+        [
+          "evidența",
+          1
+        ],
+        [
+          "evidență",
+          1
+        ],
+        [
+          "evidenta",
+          1
+        ]
+      ],
+      "entropy": 1.9219280948873623
+    },
+    {
+      "base": "revarsa",
+      "total": 8,
+      "forms": [
+        [
+          "revărsă",
+          3
+        ],
+        [
+          "revarsa",
+          2
+        ],
+        [
+          "revarsă",
+          2
+        ],
+        [
+          "revărsa",
+          1
+        ]
+      ],
+      "entropy": 1.9056390622295665
+    },
+    {
+      "base": "tari",
+      "total": 3,
+      "forms": [
+        [
+          "tari",
+          1
+        ],
+        [
+          "tări",
+          1
+        ],
+        [
+          "țari",
+          1
+        ]
+      ],
+      "entropy": 1.584962500721156
+    },
+    {
+      "base": "scapa",
+      "total": 5,
+      "forms": [
+        [
+          "scapă",
+          2
+        ],
+        [
+          "scăpa",
+          2
+        ],
+        [
+          "scăpă",
+          1
+        ]
+      ],
+      "entropy": 1.5219280948873621
+    },
+    {
+      "base": "bunavointa",
+      "total": 6,
+      "forms": [
+        [
+          "bunăvoință",
+          3
+        ],
+        [
+          "bunăvoința",
+          2
+        ],
+        [
+          "bunavoința",
+          1
+        ]
+      ],
+      "entropy": 1.4591479170272448
+    },
+    {
+      "base": "lasa",
+      "total": 25,
+      "forms": [
+        [
+          "lasă",
+          11
+        ],
+        [
+          "lăsă",
+          11
+        ],
+        [
+          "lăsa",
+          3
+        ]
+      ],
+      "entropy": 1.4093608652873644
+    },
+    {
+      "base": "cauta",
+      "total": 5,
+      "forms": [
+        [
+          "caută",
+          3
+        ],
+        [
+          "cauta",
+          1
+        ],
+        [
+          "căuta",
+          1
+        ]
+      ],
+      "entropy": 1.3709505944546687
+    },
+    {
+      "base": "apara",
+      "total": 5,
+      "forms": [
+        [
+          "apără",
+          3
+        ],
+        [
+          "apară",
+          1
+        ],
+        [
+          "apăra",
+          1
+        ]
+      ],
+      "entropy": 1.3709505944546687
+    },
+    {
+      "base": "prezenta",
+      "total": 12,
+      "forms": [
+        [
+          "prezența",
+          6
+        ],
+        [
+          "prezenta",
+          5
+        ],
+        [
+          "prezentă",
+          1
+        ]
+      ],
+      "entropy": 1.3250112108241772
+    },
+    {
+      "base": "importanta",
+      "total": 13,
+      "forms": [
+        [
+          "importanță",
+          8
+        ],
+        [
+          "importanța",
+          4
+        ],
+        [
+          "importantă",
+          1
+        ]
+      ],
+      "entropy": 1.2389012566026305
+    },
+    {
+      "base": "fata",
+      "total": 99,
+      "forms": [
+        [
+          "fața",
+          60
+        ],
+        [
+          "față",
+          34
+        ],
+        [
+          "fata",
+          5
+        ]
+      ],
+      "entropy": 1.1849443694386048
+    },
+    {
+      "base": "cauza",
+      "total": 6,
+      "forms": [
+        [
+          "cauză",
+          3
+        ],
+        [
+          "cauza",
+          3
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "sl",
+      "total": 6,
+      "forms": [
+        [
+          "sl",
+          3
+        ],
+        [
+          "șl",
+          3
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "prada",
+      "total": 6,
+      "forms": [
+        [
+          "prada",
+          3
+        ],
+        [
+          "pradă",
+          3
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "impiedica",
+      "total": 6,
+      "forms": [
+        [
+          "împiedică",
+          3
+        ],
+        [
+          "împiedica",
+          3
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "mila",
+      "total": 4,
+      "forms": [
+        [
+          "milă",
+          2
+        ],
+        [
+          "mila",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "sora",
+      "total": 4,
+      "forms": [
+        [
+          "soră",
+          2
+        ],
+        [
+          "sora",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "briza",
+      "total": 4,
+      "forms": [
+        [
+          "briza",
+          2
+        ],
+        [
+          "briză",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "proasta",
+      "total": 4,
+      "forms": [
+        [
+          "proastă",
+          2
+        ],
+        [
+          "proasta",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "placa",
+      "total": 4,
+      "forms": [
+        [
+          "placa",
+          2
+        ],
+        [
+          "placă",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "plimba",
+      "total": 4,
+      "forms": [
+        [
+          "plimbă",
+          2
+        ],
+        [
+          "plimba",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "judeca",
+      "total": 4,
+      "forms": [
+        [
+          "judeca",
+          2
+        ],
+        [
+          "judecă",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "camasa",
+      "total": 4,
+      "forms": [
+        [
+          "cămașa",
+          2
+        ],
+        [
+          "cămașă",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "statistica",
+      "total": 4,
+      "forms": [
+        [
+          "statistică",
+          2
+        ],
+        [
+          "statistica",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "privinta",
+      "total": 4,
+      "forms": [
+        [
+          "privință",
+          2
+        ],
+        [
+          "privința",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "freca",
+      "total": 4,
+      "forms": [
+        [
+          "freca",
+          2
+        ],
+        [
+          "frecă",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "socoteala",
+      "total": 4,
+      "forms": [
+        [
+          "socoteală",
+          2
+        ],
+        [
+          "socoteala",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "dreapta",
+      "total": 4,
+      "forms": [
+        [
+          "dreapta",
+          2
+        ],
+        [
+          "dreaptă",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "crete",
+      "total": 4,
+      "forms": [
+        [
+          "crete",
+          2
+        ],
+        [
+          "crețe",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "presa",
+      "total": 4,
+      "forms": [
+        [
+          "presa",
+          2
+        ],
+        [
+          "presă",
+          2
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "agita",
+      "total": 2,
+      "forms": [
+        [
+          "agita",
+          1
+        ],
+        [
+          "agită",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "circula",
+      "total": 2,
+      "forms": [
+        [
+          "circula",
+          1
+        ],
+        [
+          "circulă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "salva",
+      "total": 2,
+      "forms": [
+        [
+          "salva",
+          1
+        ],
+        [
+          "salvă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "treiera",
+      "total": 2,
+      "forms": [
+        [
+          "treieră",
+          1
+        ],
+        [
+          "treiera",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "elocventa",
+      "total": 2,
+      "forms": [
+        [
+          "elocvența",
+          1
+        ],
+        [
+          "elocventă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "sperant",
+      "total": 2,
+      "forms": [
+        [
+          "speranț",
+          1
+        ],
+        [
+          "sperant",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "muzica",
+      "total": 2,
+      "forms": [
+        [
+          "muzica",
+          1
+        ],
+        [
+          "muzică",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "odihna",
+      "total": 2,
+      "forms": [
+        [
+          "odihnă",
+          1
+        ],
+        [
+          "odihna",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "aa",
+      "total": 2,
+      "forms": [
+        [
+          "ăă",
+          1
+        ],
+        [
+          "aă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "initiativa",
+      "total": 2,
+      "forms": [
+        [
+          "inițiativa",
+          1
+        ],
+        [
+          "inițiativă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "banuiala",
+      "total": 2,
+      "forms": [
+        [
+          "bănuială",
+          1
+        ],
+        [
+          "bănuiala",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "discuta",
+      "total": 2,
+      "forms": [
+        [
+          "discuta",
+          1
+        ],
+        [
+          "discută",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "afirma",
+      "total": 2,
+      "forms": [
+        [
+          "afirma",
+          1
+        ],
+        [
+          "afirmă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "stati",
+      "total": 2,
+      "forms": [
+        [
+          "stați",
+          1
+        ],
+        [
+          "stati",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "suiera",
+      "total": 2,
+      "forms": [
+        [
+          "șuieră",
+          1
+        ],
+        [
+          "șuiera",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "incotro",
+      "total": 2,
+      "forms": [
+        [
+          "incotro",
+          1
+        ],
+        [
+          "încotro",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "obignuita",
+      "total": 2,
+      "forms": [
+        [
+          "obignuita",
+          1
+        ],
+        [
+          "obignuită",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "pofta",
+      "total": 2,
+      "forms": [
+        [
+          "pofta",
+          1
+        ],
+        [
+          "poftă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "lovitura",
+      "total": 2,
+      "forms": [
+        [
+          "lovitură",
+          1
+        ],
+        [
+          "lovitura",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "igiena",
+      "total": 2,
+      "forms": [
+        [
+          "igienă",
+          1
+        ],
+        [
+          "igiena",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "contrabanda",
+      "total": 2,
+      "forms": [
+        [
+          "contrabanda",
+          1
+        ],
+        [
+          "contrabandă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "tara",
+      "total": 2,
+      "forms": [
+        [
+          "țară",
+          1
+        ],
+        [
+          "țara",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "arsita",
+      "total": 2,
+      "forms": [
+        [
+          "arșiță",
+          1
+        ],
+        [
+          "arșița",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "figura",
+      "total": 2,
+      "forms": [
+        [
+          "figură",
+          1
+        ],
+        [
+          "figura",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "palavrageli",
+      "total": 2,
+      "forms": [
+        [
+          "pălăvrăgeli",
+          1
+        ],
+        [
+          "pălavrăgeli",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "chema",
+      "total": 2,
+      "forms": [
+        [
+          "chema",
+          1
+        ],
+        [
+          "chemă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "urmareasca",
+      "total": 2,
+      "forms": [
+        [
+          "urmărească",
+          1
+        ],
+        [
+          "urmăreasca",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "aduna",
+      "total": 2,
+      "forms": [
+        [
+          "aduna",
+          1
+        ],
+        [
+          "adună",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "recolta",
+      "total": 2,
+      "forms": [
+        [
+          "recoltă",
+          1
+        ],
+        [
+          "recolta",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "morala",
+      "total": 2,
+      "forms": [
+        [
+          "morala",
+          1
+        ],
+        [
+          "morală",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "indrepta",
+      "total": 2,
+      "forms": [
+        [
+          "îndreptă",
+          1
+        ],
+        [
+          "îndrepta",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "furtuna",
+      "total": 2,
+      "forms": [
+        [
+          "furtuna",
+          1
+        ],
+        [
+          "furtună",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "stiinta",
+      "total": 2,
+      "forms": [
+        [
+          "știința",
+          1
+        ],
+        [
+          "știință",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "comunica",
+      "total": 2,
+      "forms": [
+        [
+          "comunica",
+          1
+        ],
+        [
+          "comunică",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "taie",
+      "total": 2,
+      "forms": [
+        [
+          "tăie",
+          1
+        ],
+        [
+          "taie",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "aspira",
+      "total": 2,
+      "forms": [
+        [
+          "aspiră",
+          1
+        ],
+        [
+          "aspira",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "chelnerita",
+      "total": 2,
+      "forms": [
+        [
+          "chelneriță",
+          1
+        ],
+        [
+          "chelnerița",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "ugurinta",
+      "total": 2,
+      "forms": [
+        [
+          "ugurință",
+          1
+        ],
+        [
+          "ugurința",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "obisnuinta",
+      "total": 2,
+      "forms": [
+        [
+          "obișnuința",
+          1
+        ],
+        [
+          "obișnuință",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "coasta",
+      "total": 2,
+      "forms": [
+        [
+          "coastă",
+          1
+        ],
+        [
+          "coasta",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "putint",
+      "total": 2,
+      "forms": [
+        [
+          "putint",
+          1
+        ],
+        [
+          "puțint",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "haina",
+      "total": 2,
+      "forms": [
+        [
+          "haină",
+          1
+        ],
+        [
+          "haina",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "tema",
+      "total": 2,
+      "forms": [
+        [
+          "tema",
+          1
+        ],
+        [
+          "temă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "vindeca",
+      "total": 2,
+      "forms": [
+        [
+          "vindecă",
+          1
+        ],
+        [
+          "vindeca",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "cruta",
+      "total": 2,
+      "forms": [
+        [
+          "cruță",
+          1
+        ],
+        [
+          "cruța",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "benzina",
+      "total": 2,
+      "forms": [
+        [
+          "benzina",
+          1
+        ],
+        [
+          "benzină",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "inalta",
+      "total": 2,
+      "forms": [
+        [
+          "înălță",
+          1
+        ],
+        [
+          "înaltă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "luptam",
+      "total": 2,
+      "forms": [
+        [
+          "luptăm",
+          1
+        ],
+        [
+          "luptam",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "comanda",
+      "total": 2,
+      "forms": [
+        [
+          "comanda",
+          1
+        ],
+        [
+          "comandă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "cita",
+      "total": 2,
+      "forms": [
+        [
+          "cita",
+          1
+        ],
+        [
+          "cîta",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "urla",
+      "total": 2,
+      "forms": [
+        [
+          "urla",
+          1
+        ],
+        [
+          "urlă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "sparta",
+      "total": 2,
+      "forms": [
+        [
+          "sparta",
+          1
+        ],
+        [
+          "spartă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "gluma",
+      "total": 2,
+      "forms": [
+        [
+          "gluma",
+          1
+        ],
+        [
+          "glumă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "modesti",
+      "total": 2,
+      "forms": [
+        [
+          "modesti",
+          1
+        ],
+        [
+          "modești",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "valul",
+      "total": 2,
+      "forms": [
+        [
+          "valul",
+          1
+        ],
+        [
+          "vălul",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "sosea",
+      "total": 2,
+      "forms": [
+        [
+          "șosea",
+          1
+        ],
+        [
+          "sosea",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "lista",
+      "total": 2,
+      "forms": [
+        [
+          "listă",
+          1
+        ],
+        [
+          "lista",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "solicita",
+      "total": 2,
+      "forms": [
+        [
+          "solicita",
+          1
+        ],
+        [
+          "solicită",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "curba",
+      "total": 2,
+      "forms": [
+        [
+          "curbă",
+          1
+        ],
+        [
+          "curba",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "scoala",
+      "total": 2,
+      "forms": [
+        [
+          "școala",
+          1
+        ],
+        [
+          "școală",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "vesnica",
+      "total": 2,
+      "forms": [
+        [
+          "veșnica",
+          1
+        ],
+        [
+          "veșnică",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "masca",
+      "total": 2,
+      "forms": [
+        [
+          "masca",
+          1
+        ],
+        [
+          "mască",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "vantura",
+      "total": 2,
+      "forms": [
+        [
+          "vântură",
+          1
+        ],
+        [
+          "vântura",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "limba",
+      "total": 2,
+      "forms": [
+        [
+          "limba",
+          1
+        ],
+        [
+          "limbă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "cailatori",
+      "total": 2,
+      "forms": [
+        [
+          "căilători",
+          1
+        ],
+        [
+          "cailători",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "asista",
+      "total": 2,
+      "forms": [
+        [
+          "asista",
+          1
+        ],
+        [
+          "asistă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "saturat",
+      "total": 2,
+      "forms": [
+        [
+          "săturat",
+          1
+        ],
+        [
+          "saturat",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "serbari",
+      "total": 2,
+      "forms": [
+        [
+          "serbări",
+          1
+        ],
+        [
+          "serbari",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "ruptura",
+      "total": 2,
+      "forms": [
+        [
+          "ruptura",
+          1
+        ],
+        [
+          "ruptură",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "soseste",
+      "total": 2,
+      "forms": [
+        [
+          "soseste",
+          1
+        ],
+        [
+          "sosește",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "aranja",
+      "total": 2,
+      "forms": [
+        [
+          "aranja",
+          1
+        ],
+        [
+          "aranjă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "truda",
+      "total": 2,
+      "forms": [
+        [
+          "trudă",
+          1
+        ],
+        [
+          "truda",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "uitam",
+      "total": 2,
+      "forms": [
+        [
+          "uitam",
+          1
+        ],
+        [
+          "uităm",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "viteza",
+      "total": 2,
+      "forms": [
+        [
+          "viteza",
+          1
+        ],
+        [
+          "viteză",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "intalneasca",
+      "total": 2,
+      "forms": [
+        [
+          "întâlnească",
+          1
+        ],
+        [
+          "întâlneasca",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "misca",
+      "total": 2,
+      "forms": [
+        [
+          "mișca",
+          1
+        ],
+        [
+          "mișcă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "umbla",
+      "total": 2,
+      "forms": [
+        [
+          "umbla",
+          1
+        ],
+        [
+          "umblă",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "intrigat",
+      "total": 2,
+      "forms": [
+        [
+          "intrigăt",
+          1
+        ],
+        [
+          "intrigat",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "lucram",
+      "total": 2,
+      "forms": [
+        [
+          "lucrăm",
+          1
+        ],
+        [
+          "lucram",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "groaza",
+      "total": 2,
+      "forms": [
+        [
+          "groaza",
+          1
+        ],
+        [
+          "groază",
+          1
+        ]
+      ],
+      "entropy": 1.0
+    },
+    {
+      "base": "dimineata",
+      "total": 37,
+      "forms": [
+        [
+          "dimineață",
+          19
+        ],
+        [
+          "dimineața",
+          18
+        ]
+      ],
+      "entropy": 0.9994730201859836
+    },
+    {
+      "base": "oboseala",
+      "total": 21,
+      "forms": [
+        [
+          "oboseala",
+          11
+        ],
+        [
+          "oboseală",
+          10
+        ]
+      ],
+      "entropy": 0.998363672593813
+    },
+    {
+      "base": "singura",
+      "total": 21,
+      "forms": [
+        [
+          "singura",
+          11
+        ],
+        [
+          "singură",
+          10
+        ]
+      ],
+      "entropy": 0.998363672593813
+    },
+    {
+      "base": "prefectura",
+      "total": 19,
+      "forms": [
+        [
+          "prefectură",
+          10
+        ],
+        [
+          "prefectura",
+          9
+        ]
+      ],
+      "entropy": 0.9980008838722996
+    },
+    {
+      "base": "casa",
+      "total": 17,
+      "forms": [
+        [
+          "casă",
+          9
+        ],
+        [
+          "casa",
+          8
+        ]
+      ],
+      "entropy": 0.9975025463691152
+    },
+    {
+      "base": "ciuma",
+      "total": 157,
+      "forms": [
+        [
+          "ciuma",
+          84
+        ],
+        [
+          "ciumă",
+          73
+        ]
+      ],
+      "entropy": 0.9964560590084606
+    },
+    {
+      "base": "telegrama",
+      "total": 13,
+      "forms": [
+        [
+          "telegrama",
+          7
+        ],
+        [
+          "telegramă",
+          6
+        ]
+      ],
+      "entropy": 0.9957274520849255
+    },
+    {
+      "base": "ultima",
+      "total": 13,
+      "forms": [
+        [
+          "ultima",
+          7
+        ],
+        [
+          "ultimă",
+          6
+        ]
+      ],
+      "entropy": 0.9957274520849255
+    },
+    {
+      "base": "suferinta",
+      "total": 24,
+      "forms": [
+        [
+          "suferința",
+          13
+        ],
+        [
+          "suferință",
+          11
+        ]
+      ],
+      "entropy": 0.9949848281859701
+    },
+    {
+      "base": "speranta",
+      "total": 22,
+      "forms": [
+        [
+          "speranță",
+          12
+        ],
+        [
+          "speranța",
+          10
+        ]
+      ],
+      "entropy": 0.9940302114769565
+    },
+    {
+      "base": "adevarata",
+      "total": 11,
+      "forms": [
+        [
+          "adevărată",
+          6
+        ],
+        [
+          "adevărata",
+          5
+        ]
+      ],
+      "entropy": 0.9940302114769565
+    },
+    {
+      "base": "caldura",
+      "total": 18,
+      "forms": [
+        [
+          "căldură",
+          10
+        ],
+        [
+          "căldura",
+          8
+        ]
+      ],
+      "entropy": 0.9910760598382222
+    },
+    {
+      "base": "lampa",
+      "total": 9,
+      "forms": [
+        [
+          "lampă",
+          5
+        ],
+        [
+          "lampa",
+          4
+        ]
+      ],
+      "entropy": 0.9910760598382222
+    },
+    {
+      "base": "fiinta",
+      "total": 9,
+      "forms": [
+        [
+          "ființa",
+          5
+        ],
+        [
+          "ființă",
+          4
+        ]
+      ],
+      "entropy": 0.9910760598382222
+    },
+    {
+      "base": "par",
+      "total": 9,
+      "forms": [
+        [
+          "par",
+          5
+        ],
+        [
+          "păr",
+          4
+        ]
+      ],
+      "entropy": 0.9910760598382222
+    },
+    {
+      "base": "indiferenta",
+      "total": 9,
+      "forms": [
+        [
+          "indiferență",
+          7
+        ],
+        [
+          "indiferentă",
+          1
+        ],
+        [
+          "indiferența",
+          1
+        ]
+      ],
+      "entropy": 0.9864267287308425
+    },
+    {
+      "base": "munca",
+      "total": 14,
+      "forms": [
+        [
+          "munca",
+          8
+        ],
+        [
+          "muncă",
+          6
+        ]
+      ],
+      "entropy": 0.9852281360342515
+    },
+    {
+      "base": "tine",
+      "total": 7,
+      "forms": [
+        [
+          "ține",
+          4
+        ],
+        [
+          "tine",
+          3
+        ]
+      ],
+      "entropy": 0.9852281360342515
+    },
+    {
+      "base": "surpriza",
+      "total": 7,
+      "forms": [
+        [
+          "surpriză",
+          4
+        ],
+        [
+          "surpriza",
+          3
+        ]
+      ],
+      "entropy": 0.9852281360342515
+    },
+    {
+      "base": "raul",
+      "total": 7,
+      "forms": [
+        [
+          "râul",
+          4
+        ],
+        [
+          "răul",
+          3
+        ]
+      ],
+      "entropy": 0.9852281360342515
+    },
+    {
+      "base": "strigat",
+      "total": 7,
+      "forms": [
+        [
+          "strigat",
+          4
+        ],
+        [
+          "strigăt",
+          3
+        ]
+      ],
+      "entropy": 0.9852281360342515
+    },
+    {
+      "base": "credinta",
+      "total": 7,
+      "forms": [
+        [
+          "credința",
+          4
+        ],
+        [
+          "credință",
+          3
+        ]
+      ],
+      "entropy": 0.9852281360342515
+    },
+    {
+      "base": "clipa",
+      "total": 47,
+      "forms": [
+        [
+          "clipă",
+          27
+        ],
+        [
+          "clipa",
+          20
+        ]
+      ],
+      "entropy": 0.9839393951635756
+    },
+    {
+      "base": "lumina",
+      "total": 40,
+      "forms": [
+        [
+          "lumină",
+          23
+        ],
+        [
+          "lumina",
+          17
+        ]
+      ],
+      "entropy": 0.9837082626231859
+    },
+    {
+      "base": "umbra",
+      "total": 19,
+      "forms": [
+        [
+          "umbra",
+          11
+        ],
+        [
+          "umbră",
+          8
+        ]
+      ],
+      "entropy": 0.9819407868640977
+    },
+    {
+      "base": "usa",
+      "total": 24,
+      "forms": [
+        [
+          "ușă",
+          14
+        ],
+        [
+          "ușa",
+          10
+        ]
+      ],
+      "entropy": 0.9798687566511528
+    },
+    {
+      "base": "predica",
+      "total": 12,
+      "forms": [
+        [
+          "predica",
+          7
+        ],
+        [
+          "predică",
+          5
+        ]
+      ],
+      "entropy": 0.9798687566511528
+    },
+    {
+      "base": "incerca",
+      "total": 12,
+      "forms": [
+        [
+          "încerca",
+          7
+        ],
+        [
+          "încercă",
+          5
+        ]
+      ],
+      "entropy": 0.9798687566511528
+    },
+    {
+      "base": "boala",
+      "total": 25,
+      "forms": [
+        [
+          "boala",
+          15
+        ],
+        [
+          "boală",
+          10
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "refuza",
+      "total": 10,
+      "forms": [
+        [
+          "refuză",
+          6
+        ],
+        [
+          "refuza",
+          4
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "treaba",
+      "total": 10,
+      "forms": [
+        [
+          "treabă",
+          6
+        ],
+        [
+          "treaba",
+          4
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "imagina",
+      "total": 5,
+      "forms": [
+        [
+          "imagina",
+          3
+        ],
+        [
+          "imagină",
+          2
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "imensa",
+      "total": 5,
+      "forms": [
+        [
+          "imensa",
+          3
+        ],
+        [
+          "imensă",
+          2
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "ura",
+      "total": 5,
+      "forms": [
+        [
+          "ura",
+          3
+        ],
+        [
+          "ură",
+          2
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "tabla",
+      "total": 5,
+      "forms": [
+        [
+          "tabla",
+          3
+        ],
+        [
+          "tablă",
+          2
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "partida",
+      "total": 5,
+      "forms": [
+        [
+          "partidă",
+          3
+        ],
+        [
+          "partida",
+          2
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "perna",
+      "total": 5,
+      "forms": [
+        [
+          "perna",
+          3
+        ],
+        [
+          "pernă",
+          2
+        ]
+      ],
+      "entropy": 0.9709505944546686
+    },
+    {
+      "base": "seara",
+      "total": 67,
+      "forms": [
+        [
+          "seara",
+          41
+        ],
+        [
+          "seară",
+          26
+        ]
+      ],
+      "entropy": 0.9635359835770287
+    },
+    {
+      "base": "viata",
+      "total": 49,
+      "forms": [
+        [
+          "viața",
+          30
+        ],
+        [
+          "viață",
+          19
+        ]
+      ],
+      "entropy": 0.9633355456726841
+    },
+    {
+      "base": "masina",
+      "total": 13,
+      "forms": [
+        [
+          "mașina",
+          8
+        ],
+        [
+          "mașină",
+          5
+        ]
+      ],
+      "entropy": 0.9612366047228759
+    },
+    {
+      "base": "strada",
+      "total": 34,
+      "forms": [
+        [
+          "stradă",
+          21
+        ],
+        [
+          "strada",
+          13
+        ]
+      ],
+      "entropy": 0.9596868937742169
+    },
+    {
+      "base": "intreaga",
+      "total": 8,
+      "forms": [
+        [
+          "întreaga",
+          5
+        ],
+        [
+          "întreagă",
+          3
+        ]
+      ],
+      "entropy": 0.954434002924965
+    },
+    {
+      "base": "fnca",
+      "total": 8,
+      "forms": [
+        [
+          "fncă",
+          5
+        ],
+        [
+          "fnca",
+          3
+        ]
+      ],
+      "entropy": 0.954434002924965
+    },
+    {
+      "base": "vizita",
+      "total": 8,
+      "forms": [
+        [
+          "vizită",
+          5
+        ],
+        [
+          "vizita",
+          3
+        ]
+      ],
+      "entropy": 0.954434002924965
+    },
+    {
+      "base": "urma",
+      "total": 89,
+      "forms": [
+        [
+          "urmă",
+          56
+        ],
+        [
+          "urma",
+          33
+        ]
+      ],
+      "entropy": 0.9512740874376923
+    },
+    {
+      "base": "va",
+      "total": 122,
+      "forms": [
+        [
+          "va",
+          77
+        ],
+        [
+          "vă",
+          45
+        ]
+      ],
+      "entropy": 0.9497869033961422
+    },
+    {
+      "base": "gura",
+      "total": 19,
+      "forms": [
+        [
+          "gura",
+          12
+        ],
+        [
+          "gură",
+          7
+        ]
+      ],
+      "entropy": 0.9494520153879484
+    },
+    {
+      "base": "fereastra",
+      "total": 11,
+      "forms": [
+        [
+          "fereastră",
+          7
+        ],
+        [
+          "fereastra",
+          4
+        ]
+      ],
+      "entropy": 0.9456603046006401
+    },
+    {
+      "base": "adauga",
+      "total": 11,
+      "forms": [
+        [
+          "adaugă",
+          7
+        ],
+        [
+          "adăugă",
+          4
+        ]
+      ],
+      "entropy": 0.9456603046006401
+    },
+    {
+      "base": "teama",
+      "total": 11,
+      "forms": [
+        [
+          "teama",
+          7
+        ],
+        [
+          "teamă",
+          4
+        ]
+      ],
+      "entropy": 0.9456603046006401
+    },
+    {
+      "base": "forma",
+      "total": 17,
+      "forms": [
+        [
+          "formă",
+          11
+        ],
+        [
+          "forma",
+          6
+        ]
+      ],
+      "entropy": 0.9366673818775626
+    },
+    {
+      "base": "febra",
+      "total": 27,
+      "forms": [
+        [
+          "febră",
+          18
+        ],
+        [
+          "febra",
+          9
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "lua",
+      "total": 21,
+      "forms": [
+        [
+          "luă",
+          14
+        ],
+        [
+          "lua",
+          7
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "masa",
+      "total": 21,
+      "forms": [
+        [
+          "masă",
+          14
+        ],
+        [
+          "masa",
+          7
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "pricina",
+      "total": 18,
+      "forms": [
+        [
+          "pricina",
+          12
+        ],
+        [
+          "pricină",
+          6
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "sala",
+      "total": 18,
+      "forms": [
+        [
+          "sala",
+          12
+        ],
+        [
+          "sală",
+          6
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "afla",
+      "total": 15,
+      "forms": [
+        [
+          "află",
+          10
+        ],
+        [
+          "afla",
+          5
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "fraza",
+      "total": 12,
+      "forms": [
+        [
+          "frază",
+          8
+        ],
+        [
+          "fraza",
+          4
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "camera",
+      "total": 6,
+      "forms": [
+        [
+          "camera",
+          4
+        ],
+        [
+          "cameră",
+          2
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "spaima",
+      "total": 6,
+      "forms": [
+        [
+          "spaima",
+          4
+        ],
+        [
+          "spaimă",
+          2
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "devina",
+      "total": 6,
+      "forms": [
+        [
+          "devină",
+          4
+        ],
+        [
+          "devina",
+          2
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "pleca",
+      "total": 6,
+      "forms": [
+        [
+          "pleca",
+          4
+        ],
+        [
+          "plecă",
+          2
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "varsta",
+      "total": 6,
+      "forms": [
+        [
+          "vârsta",
+          4
+        ],
+        [
+          "vârstă",
+          2
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "sarcina",
+      "total": 6,
+      "forms": [
+        [
+          "sarcina",
+          4
+        ],
+        [
+          "sarcină",
+          2
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "echipa",
+      "total": 3,
+      "forms": [
+        [
+          "echipa",
+          2
+        ],
+        [
+          "echipă",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "coada",
+      "total": 3,
+      "forms": [
+        [
+          "coadă",
+          2
+        ],
+        [
+          "coada",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "strecura",
+      "total": 3,
+      "forms": [
+        [
+          "strecură",
+          2
+        ],
+        [
+          "strecura",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "patura",
+      "total": 3,
+      "forms": [
+        [
+          "pătura",
+          2
+        ],
+        [
+          "pătură",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "opera",
+      "total": 3,
+      "forms": [
+        [
+          "opera",
+          2
+        ],
+        [
+          "operă",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "penumbra",
+      "total": 3,
+      "forms": [
+        [
+          "penumbra",
+          2
+        ],
+        [
+          "penumbră",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "incurca",
+      "total": 3,
+      "forms": [
+        [
+          "încurcă",
+          2
+        ],
+        [
+          "încurca",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "bezna",
+      "total": 3,
+      "forms": [
+        [
+          "beznă",
+          2
+        ],
+        [
+          "bezna",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "persoana",
+      "total": 3,
+      "forms": [
+        [
+          "persoană",
+          2
+        ],
+        [
+          "persoana",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "alerga",
+      "total": 3,
+      "forms": [
+        [
+          "alerga",
+          2
+        ],
+        [
+          "alergă",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "sfargitul",
+      "total": 3,
+      "forms": [
+        [
+          "sfărgitul",
+          2
+        ],
+        [
+          "sfârgitul",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "pedeapsa",
+      "total": 3,
+      "forms": [
+        [
+          "pedeapsă",
+          2
+        ],
+        [
+          "pedeapsa",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "comuna",
+      "total": 3,
+      "forms": [
+        [
+          "comună",
+          2
+        ],
+        [
+          "comuna",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "acorda",
+      "total": 3,
+      "forms": [
+        [
+          "acordă",
+          2
+        ],
+        [
+          "acorda",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "ameninta",
+      "total": 3,
+      "forms": [
+        [
+          "amenință",
+          2
+        ],
+        [
+          "amenința",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "burta",
+      "total": 3,
+      "forms": [
+        [
+          "burtă",
+          2
+        ],
+        [
+          "burta",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "fetei",
+      "total": 3,
+      "forms": [
+        [
+          "feței",
+          2
+        ],
+        [
+          "fetei",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "calma",
+      "total": 3,
+      "forms": [
+        [
+          "calmă",
+          2
+        ],
+        [
+          "calma",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "incarcatura",
+      "total": 3,
+      "forms": [
+        [
+          "încărcătura",
+          2
+        ],
+        [
+          "încărcătură",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "auda",
+      "total": 3,
+      "forms": [
+        [
+          "audă",
+          2
+        ],
+        [
+          "auda",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "fetita",
+      "total": 3,
+      "forms": [
+        [
+          "fetița",
+          2
+        ],
+        [
+          "fetiță",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "spaniola",
+      "total": 3,
+      "forms": [
+        [
+          "spaniolă",
+          2
+        ],
+        [
+          "spaniola",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "can",
+      "total": 3,
+      "forms": [
+        [
+          "cân",
+          2
+        ],
+        [
+          "can",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "canta",
+      "total": 3,
+      "forms": [
+        [
+          "cântă",
+          2
+        ],
+        [
+          "cânta",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "cadenta",
+      "total": 3,
+      "forms": [
+        [
+          "cadență",
+          2
+        ],
+        [
+          "cadența",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    },
+    {
+      "base": "telefona",
+      "total": 3,
+      "forms": [
+        [
+          "telefona",
+          2
+        ],
+        [
+          "telefonă",
+          1
+        ]
+      ],
+      "entropy": 0.9182958340544896
+    }
+  ]
+}

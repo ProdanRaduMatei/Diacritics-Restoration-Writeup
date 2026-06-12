@@ -2,6 +2,25 @@
 
 Local, on-premises pipeline for restoring Romanian diacritics.
 
+## What This Repository Contains
+
+This repository is meant to be read and run locally. It includes:
+
+- reproducible preprocessing, training, evaluation and benchmark scripts
+- the original paired corpus in `training/`
+- cleaned document-level splits in `data/processed/`
+- trained local artifacts in `artifacts/`
+- the writeup in `REPORT.md`
+- manual ambiguity tests in `reports/hard_cases.md`
+- a final presentation in `Prezentare_solutie_diacritice_RO.pptx`
+
+The implementation follows the requested structure:
+
+- Baselines: frequency dictionary and n-gram / LM reranker
+- Main model: lightweight encoder-decoder Transformer
+- Support layers: conservative cleaning, spaCy linguistic report, safety constraint and fallback
+- Evaluation: automatic metrics, manual hard cases, latency, memory and model-size benchmark
+
 The final inference path is:
 
 ```text
@@ -79,7 +98,7 @@ CPU benchmark on short sentences:
 
 | mean ms | p50 ms | p95 ms | model MB | dictionary MB | ngram MB |
 |---:|---:|---:|---:|---:|---:|
-| 20.299 | 21.300 | 23.388 | 15.054 | 0.453 | 7.376 |
+| 18.342 | 19.342 | 21.476 | 15.054 | 0.453 | 7.376 |
 
 Detailed reports:
 
@@ -89,3 +108,13 @@ Detailed reports:
 - `reports/linguistic_report.md`
 - `reports/benchmark.json`
 
+## Requirement Coverage
+
+- Thinking and tradeoffs: `REPORT.md`
+- AI usage journal: `REPORT.md`
+- Corpus cleaning and split: `reports/cleaning_report.txt`, `data/processed/split_manifest.json`
+- Baselines and Transformer: `scripts/train_baselines.py`, `scripts/train_transformer.py`
+- Safety and fallback: `diacritics_restoration/inference.py`
+- Hard cases: `reports/hard_cases.md`
+- On-prem deployment evidence: local artifacts under `artifacts/`, CPU benchmark in `reports/benchmark.json`
+- Presentation: `Prezentare_solutie_diacritice_RO.pptx`

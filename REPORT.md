@@ -13,6 +13,25 @@ Alternatives considered:
 
 Final choice: a hybrid. I trained a lightweight seq2seq Transformer, then wrapped it in strict safety layers. If the model rewrites text or proposes an unseen weird form such as `Câsa`, the system falls back to the conservative dictionary.
 
+## Requirement Coverage
+
+This section maps the original assignment to concrete project artifacts, so the result can be checked quickly.
+
+| requirement | where it is covered | status |
+|---|---|---|
+| Restore Romanian diacritics from text without diacritics | `diacritics_restoration/`, `scripts/restore_text.py`, `artifacts/model/transformer.pt` | implemented |
+| Use the provided `.gt.txt.bak` -> `.gt.txt` corpus | `training/`, `scripts/prepare_data.py`, `data/processed/` | implemented |
+| Treat corpus noise intelligently | conservative cleaning in `diacritics_restoration/data.py`, report in `reports/cleaning_report.txt` | implemented |
+| Think before coding: alternatives, tradeoffs, data split, noise, model size | `Problem Understanding`, `Data and Cleaning`, `Model and Deployment Decision` | documented |
+| Include a short AI usage journal with weak suggestions rejected | `AI Usage Journal` | documented |
+| Handle ambiguity beyond pure character replacement | seq2seq Transformer + dictionary/LM baselines + hard cases | implemented and discussed |
+| Build hard cases and explain why they are hard | `reports/hard_cases.md`, `Hard Cases` section | documented |
+| Provide reproducible code or notebook and a trained model | `README.md`, `scripts/`, `config/`, `artifacts/` | implemented |
+| Provide a short story of problem, approach, results, limitations | `REPORT.md`, `Prezentare_solutie_diacritice_RO.pptx` | documented |
+| Be honest about limitations and failures | `Hard Cases`, `Limitations and Next Steps` | documented |
+| Run on-premises on modest hardware, no cloud API | local PyTorch CPU inference, small checkpoint, no API calls | implemented |
+| Evaluate with metrics, hard cases, speed/memory/model size | `reports/evaluation.json`, `reports/benchmark.json`, `reports/hard_cases.md` | implemented |
+
 ## Project Structure and Architecture
 
 I kept the implementation aligned with the structure from the original brief:
@@ -129,7 +148,7 @@ Training command used:
 .venv/bin/python scripts/train_transformer.py --preset small --epochs 20 --device cpu
 ```
 
-Training took 254.945 seconds on CPU. Best validation loss at epoch 20 was 1.3089.
+Training took 219.288 seconds on CPU in the latest local run. Best validation loss at epoch 20 was 1.3089.
 
 ## Safety and Fallback
 
@@ -163,9 +182,9 @@ The final pipeline accepted the Transformer output on 182/664 test samples, used
 
 CPU benchmark on short inputs:
 
-- mean latency: 20.299 ms
-- p50: 21.300 ms
-- p95: 23.388 ms
+- mean latency: 18.342 ms
+- p50: 19.342 ms
+- p95: 21.476 ms
 - model size: 15.054 MB
 
 ## Hard Cases
@@ -178,6 +197,7 @@ Examples:
 - `Fata sta in fata casei.` -> `fata/față/fața`; current output is `Fața sta în fața casei`, showing dictionary bias.
 - `Mana dreapta era in mana medicului.` -> indefinite vs definite noun; current output misses `dreaptă`.
 - `Sa-si ia cartea sau sa o lase?` -> clitic punctuation; model gets `-și` and `să`, but misses initial `Să`.
+- `Cand vin peste o vreme acasa...` -> several ambiguous tokens in one sentence; the dictionary fallback keeps the text safe but exposes frequency bias on `casă/casa`, `că/ca`, `fațada/fațadă`.
 
 These are useful because they expose the exact boundary between lexical frequency and real contextual understanding.
 
@@ -193,12 +213,21 @@ I used AI assistance for:
 - drafting the first code skeleton
 - generating candidate hard cases
 - stress-testing the n-gram idea conceptually
+- preparing the final presentation and tightening this writeup into a requirement-by-requirement story
+
+Representative prompts / requests I used:
+
+- "Compare character-level restoration, token classification, seq2seq MT, and dictionary baselines for Romanian diacritics restoration."
+- "Draft a small on-premises PyTorch Transformer config that can run on CPU."
+- "Generate ambiguous Romanian hard cases around `peste`, `fata`, `mana`, `para`, `casa`."
+- "Review this pipeline for failure modes where a seq2seq model rewrites text instead of only adding diacritics."
 
 Where AI was misleading or too simple:
 
 - A naive suggestion was "just use character-level restoration"; I rejected it because it cannot resolve `peste/pește` or `fata/fața` reliably.
 - The first n-gram reranker looked more sophisticated than the dictionary but scored worse. I kept it as an experiment and changed the production fallback to dictionary-first.
 - The first Transformer checkpoints seemed to "work" by loss, but raw outputs showed text rewrites. The safety and lexicon constraints were added after inspecting those failures manually.
+- Some generated hard cases were too clean or too artificial. I kept the ones that expose real ambiguity classes: lexical meaning, definiteness, agreement, clitics and punctuation.
 
 Manual decisions I made:
 

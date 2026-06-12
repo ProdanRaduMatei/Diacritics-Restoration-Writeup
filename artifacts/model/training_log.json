@@ -2,7 +2,7 @@
   "preset": "small",
   "epochs": 20,
   "best_valid_loss": 1.308941982009194,
-  "seconds": 254.945,
+  "seconds": 219.288,
   "rows": [
     {
       "epoch": 1,
